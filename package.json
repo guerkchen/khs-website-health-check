@@ -1,0 +1,24 @@
+{
+  "name": "khs-website-health-check",
+  "version": "1.0.0",
+  "description": "periodic health check of khs website and logging to telegram bot",
+  "main": "src/functions/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guerkchen/khs-website-health-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guerkchen/khs-website-health-check/issues"
+  },
+  "homepage": "https://github.com/guerkchen/khs-website-health-check#readme",
+  "dependencies": {
+    "@azure/data-tables": "^13.3.0",
+    "@azure/functions": "^4.6.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
